@@ -1,0 +1,26 @@
+{
+  "name": "ahorro-paraguay",
+  "version": "1.0.0",
+  "description": "Monorepo para la plataforma de consolidación de beneficios bancarios en Paraguay",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "backend:dev": "pnpm --filter backend dev",
+    "frontend:dev": "pnpm --filter frontend dev",
+    "db:migrate": "pnpm --filter backend db:migrate"
+  },
+  "keywords": [
+    "monorepo",
+    "pnpm",
+    "paraguay",
+    "fintech",
+    "scrappers",
+    "react",
+    "express"
+  ],
+  "author": "Ing. Informatico - Victor Benitez",
+  "license": "MIT"
+}
